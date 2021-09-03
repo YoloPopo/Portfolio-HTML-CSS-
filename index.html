@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta
+      name="description"
+      content="Welcome to the Home Page of Muhammad Zeesahn Asghar's Portfolio, this will allow you to navigate through his profile"
+    />
+    <style>
+      h1 {
+        width: 60%;
+        margin-left: 35%;
+        font-size: 3.5vw;
+        color: white;
+        font-family: cursive;
+      }
+      main {
+        display: flex;
+        margin-top: 80px;
+      }
+      img {
+        margin-left: 15%;
+        width: 30vw;
+        height: auto;
+      }
+      p {
+        width: 150%;
+        margin-left: 35%;
+        font-size: 2vw;
+        color: white;
+        font-family: cursive;
+      }
+
+      @media only screen and (max-width: 820px) {
+        p {
+          width: 100%;
+          font-size: 4vw;
+        }
+
+        h1 {
+          width: 100%;
+          font-size: 7vw;
+        }
+
+        img {
+          display: none;
+        }
+        main {
+          width: 60%;
+          float: none;
+          justify-content: center;
+          margin-top: -20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>Portfolio</header>
+    <nav>
+      <ul>
+        <li><a href="index.html" id="active">HOME</a></li>
+        <li><a href="biography.html">BIOGRAPHY</a></li>
+        <li><a href="education.html">EDUCATION</a></li>
+        <li><a href="projects.html">PROJECTS</a></li>
+        <li><a href="skills.html">SKILLS</a></li>
+        <li><a href="experience.html">WORK EXPERIENCE</a></li>
+        <li><a href="interests.html">INTERESTS</a></li>
+        <li><a href="honors.html">HONORS</a></li>
+        <li><a href="gallery.html">GALLERY</a></li>
+        <li><a href="contact.html">CONTACT ME</a></li>
+        <li><a href="review.html">REVIEW </a></li>
+      </ul>
+    </nav>
+    <main>
+      <div>
+        <p>Hello, this is...</p>
+        <h1>Muhammad Zeeshan Asghar</h1>
+        <p>and welcome to my profile</p>
+      </div>
+      <div><img src="Images/mypic.jpg" alt="My Picture" /></div>
+    </main>
+  </body>
+</html>

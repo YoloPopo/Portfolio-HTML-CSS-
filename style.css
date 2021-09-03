@@ -1,0 +1,70 @@
+html {
+  height: 100%;
+}
+body {
+  background-color: rgb(61, 61, 61);
+  background-image: url(Images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+header {
+  height: 100px;
+  background-color: none;
+  text-align: center;
+  font-size: 500%;
+  font-family: fantasy;
+  color: white;
+}
+nav {
+  background-color: rgba(0, 0, 0, 0.233);
+  border-radius: 5px;
+  color: white;
+  font-size: 13px;
+
+  padding-right: 35px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 85%;
+}
+
+ul li {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-block: 15px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.2s;
+}
+
+ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.116);
+}
+footer {
+  text-align: center;
+  height: auto;
+  width: auto;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: cursive;
+  background-color: rgba(0, 0, 0, 0.233);
+  margin-top: 25px;
+}
+
+#active {
+  background-color: rgba(255, 255, 255, 0.116);
+}
